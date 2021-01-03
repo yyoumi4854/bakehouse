@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <title>베이크 하우스</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div class="inner">
+          <button class="btn_all">전체메뉴열기</button>
+          <h1 class="logo"><img src="images/logo.png" alt="베이크 하우스"></h1>
+          <div class="m_menu_area">
+            <div class="link">
+              <a href="https://www.etudehouse.com" target="_blank">에뛰드하우스</a>
+              <button class="btn_close">전체메뉴닫기</button>
+            </div>
+            <nav class="gnb_wrap">
+              <h1 class="hide">주메뉴</h1>
+              <ul id="gnb">
+                <li class="click"><a href="index.html">Main</a></li>
+                <li><a href="intro.html">베이크하우스 소개</a></li>
+                <li><a href="event.html">인스타그램 이벤트</a></li>
+              </ul>
+            </nav>
+          </div><!-- m_menu_area -->
+        </div>
+      </header>
+      <div id="container">
+        <div class="main_visual">
+          <div class="bxslider">
+            <div href="intro.html">
+              <img src="images/img_mainvisual1.jpg" alt="팔레트 맛집 에뛰드 신상 플레이 컬러 아이즈 베이크 하우스" class="pc">
+              <img src="images/img_m_mainvisual1.jpg" alt="팔레트 맛집 에뛰드 신상 플레이 컬러 아이즈 베이크 하우스" class="mobile">
+            </div>
+            <div href="event.html">
+              <img src="images/img_mainvisual2.jpg" alt="베이크 하우스 인스타그램 GIF스티커 이벤트" class="pc">
+              <img src="images/img_m_mainvisual2.jpg" alt="베이크 하우스 인스타그램 GIF스티커 이벤트" class="mobile">
+            </div>
+          </div>
+          <div class="prev_next_area">
+            <span id="btn_prev"></span>
+            <span id="btn_next"></span>
+          </div>
+        </div>
+        <section class="sec" id="section_1">
+          <div class="inner">
+            <h2>베이크하우스<br>무쌍, 유쌍 아이 메이크업</h2>
+            <!-- <img src="images/img_con.jpg" alt="베이크하우스 무쌍, 유쌍 아이 메이크업 유튜브로 바로보기">
+            <a href="https://youtu.be/-8Kty3I2TYk" target="_blank" class="btn">보러가기</a> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-8Kty3I2TYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+      <div class="sns">
+        <ul>
+          <li><a href="#">페이스북 바로가기</a></li>
+          <li><a href="#">트위터 바로가기</a></li>
+          <li><a href="#">유튜브 바로가기</a></li>
+          <li><a href="#">인스타그램 바로가기</a></li>
+        </ul>
+      </div>
+      <div class="footer_bottom">
+        <img src="images/logo.png" alt="푸터 베이크하우스">
+        <span>서울특별시 용산구 한강대로 100(한강로2가)</span>
+        <span>COPYRIGHT&copy;2018 ETUDE HOUSE. ALL RIGHTS RESERVED.</span>
+      </div>
+    </footer>
+    </div><!-- wrapper -->
+  </body>
+</html>
